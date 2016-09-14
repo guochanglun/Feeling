@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#eee"
+    android:padding="18dp" >
+
+    <ImageView
+        android:id="@+id/menu_avatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/menu_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#444"
+        android:text="王小丫"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/menu_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="这个同学很懒，没有写任何东西...."
+        android:textColor="#666"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/menu_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_logout_sel"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:text="退出登录" />
+
+</LinearLayout>

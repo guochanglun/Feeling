@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3ab2a6"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="注册Feeling"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/re_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_sel"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="用户名" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/re_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/input_sel"
+        android:ems="10"
+        android:hint="密码"
+        android:inputType="textPassword" />
+
+    <RadioGroup
+        android:id="@+id/re_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="男" />
+
+        <RadioButton
+            android:id="@+id/woman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/re_sign"
+        android:layout_width="match_parent"
+        android:background="@drawable/input_sel"
+        android:layout_marginTop="10dp"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:enabled="true"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:minLines="8"
+        android:scrollbars="vertical"
+        android:text="这个同学很懒，什么也没有留下...." >
+    </EditText>
+
+    <Button
+        android:id="@+id/re_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_sel"
+        android:textColor="#666"
+        android:layout_margin="5dp"
+        android:text="注册" />
+
+</LinearLayout>

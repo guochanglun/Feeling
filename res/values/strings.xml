@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Feeling</string>
+    <string name="action_settings">Feeling</string>
+    <string name="hello_world">Feeling</string>
+    <string name="title_activity_add">Feeling</string>
+    <string name="title_activity_login">Feeling</string>
+    <string name="title_activity_register">Feeling</string>
+    <string name="title_activity_welcome">Feeling</string>
+
+</resources>
